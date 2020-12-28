@@ -1,0 +1,99 @@
+PARALLAX EFFECT
+
+*** Sa style.css ***
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Poppins";
+}
+
+body {
+  background: #1b1b1b;
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+header {
+  box-sizing: border-box;
+  min-height: 100vh;
+  position: relative;
+  transform-style: inherit;
+  width: 100vw;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: larger;
+  font-weight: lighter;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header,
+header:before {
+  background: 50% 50% / cover;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  background: url(images/barber.jpg);
+  background-size: cover;
+  transform-origin: center center 0;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+  min-height: 30vh;
+}
+
+.content {
+  z-index: 2;
+  position: auto;
+  text-align: center;
+  bottom: 5px ;
+  width: auto;
+  background: black;
+  font-size: 18px;
+  line-height: 45px;
+  font-family: 'Poppins';
+  font-weight: 370;
+  padding: 40px;
+  color: white;
+}
+
+*** Sa index.html or any html files niyo ***
+
+    <header>
+        <h1> Welcome to <div style="color:#cd9b6b; font-weight: 500;"> Headhunter Hairstyling!  </div> </h1>
+    </header>
+
+    <div class="content">
+        <p>
+            Thank you for visiting Headhunter Hairstyling! We're excited that you found us and
+            are interested in learning more about our stylists and services. Take a look
+            around, call us, or stop by and we'll be happy to show you why we've been a
+            staple in historic Pensacola since 1978. We're conveniently located in Downtown
+            Pensacola and within walking distance to most businesses and restaurants in the area.
+        </p>
+    </div>

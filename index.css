@@ -149,7 +149,7 @@ header::before {
   line-height: 52px;
   font-family: 'Poppins';
   font-weight: 370;
-  padding: 42px;
+  padding: 44px;
   color: white;
 }
 /* End of PARALLAX */
@@ -192,7 +192,6 @@ a {
   display: inline-block;
   height: 60px;
   width: 60px;
-  float: left;
   margin: 0 10px;
   overflow: hidden;
   background: black;
