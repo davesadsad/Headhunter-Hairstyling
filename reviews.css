@@ -134,7 +134,7 @@ header::before {
   right: 0;
   bottom: 0;
   display: block;
-  background: url(/images/feedback.png);
+  background: url(/images/feedback.jpg);
   background-size:100% 100%;
   transform-origin: center center 0;
   transform: translateZ(-1px) scale(2);
@@ -327,4 +327,3 @@ a {
   color: #fff;
 }
 /* End of FOOTER */
-  
