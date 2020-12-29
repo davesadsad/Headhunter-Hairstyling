@@ -190,6 +190,8 @@
     font-family: 'Poppins';
     font-weight: 320;
     padding: 30px;
+    padding-bottom: 90px;
+    padding-top: 65px
     color: white;
   }
   .myBtn{
